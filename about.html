@@ -1,0 +1,98 @@
+
+{% load static %}
+{% include 'components/base/base-top.html' %}
+{% include 'components/header/header.html' %}
+
+
+<style>
+
+
+/* about*/
+
+.about {
+  /* min-height: 100vh; */
+  padding-bottom: 0rem;
+}
+
+.about .image {
+  padding: 2rem;
+}
+
+.about .image img {
+  height: 30rem;
+  object-fit: cover;
+}
+
+.about .info {
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.about .info h2 {
+  color: #544c4ccd;
+  font-size: 2.5rem;
+}
+
+.about .info p {
+  font-size: 1rem;
+  color: #444;
+  margin: 2rem 0;
+}
+
+.about .info .icons a {
+  font-size: 2rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.about .info .icons a:hover {
+  background: #b83030cd;
+}
+
+
+
+/*about ends */
+
+</style>
+
+
+<div class="container">
+    <!-- about section starts  -->
+
+    <section class="about container" style="margin-bottom: 100px;" >
+      <div class="row align-items-center">
+        <div class="col-md-6 image">
+          <img src="/static/images/Bookstore.jpg" width="90%" alt="image" />
+        </div>
+
+        <div class="col-md-6 info">
+          <h2 class="aces">The Best BookSellers</h2>
+          <p class="aces">
+            We are an enthusiastic group of people who enjoy reading and who have faith in the ability of tales to motivate, instruct, and entertain. Our goal is to make great literature accessible to readers all over the world by providing a carefully curated collection of the most recent book releases as well as classic works at rates that cannot be beaten.
+
+          </p>
+          <p class="aces">
+          We are committed to offering great customer service as well as quick and dependable shipping, which will make it simple for you to find a book that will become one of your favorites. Come together with us on our mission to encourage more people to read. We do quick delivery. BookWorld is convenient and trust worthy.
+
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+  </div>
+
+  
+ 
+
+
+{% include 'components/footer/footer.html' %}
+{% include 'components/base/base-bottom.html' %}
